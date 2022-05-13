@@ -17,3 +17,5 @@ Apps and packages that I have installed on my system:
 - xarchiver
 - thunar as main file manager
 
+## fonts
+https://github.com/epk/SF-Mono-Nerd-Font

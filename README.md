@@ -2,20 +2,21 @@
 
 Apps and packages that I have installed on my system: 
 
-- Polybar
-- picom from yay ( yay -S picom-tryone-git )
-- firefox
-- chromium
-- qetubrowser
-- pulseaudio
-- pavucontrol
+- Polybar -> status bar
+- picom from yay ( yay -S picom-tryone-git ) -> transparency
+- firefox -> web Browser
+- chromium -> web Browser
+- qetubrowser 
+- pulseaudio -> audio
+- pavucontrol -> audio control
 - lxapparence
-- nvim
-- flameshot
-- kitty
-- vlc
-- xarchiver
-- thunar as main file manager
+- nvim -> editor
+- flameshot -> screenshots
+- kitty -> terminal
+- vlc -> video player
+- xarchiver -> file umpressor
+- thunar -> file manager
 
 ## fonts
 https://github.com/epk/SF-Mono-Nerd-Font
+

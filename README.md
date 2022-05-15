@@ -41,51 +41,50 @@ https://github.com/epk/SF-Mono-Nerd-Font
 # NVIM
 
 ### Plugins using Packer as plugin manager
-  -- PACKER 
-  use 'wbthomason/packer.nvim'
+  #### -- PACKER 
+  1. use 'wbthomason/packer.nvim'
 
-  -- THEMES
-  use {'dracula/vim', as = 'dracula'}
-  use 'Mofiqul/vscode.nvim'
-  use 'shaunsingh/solarized.nvim'
-  use 'shaunsingh/moonlight.nvim'
-  use 'shaunsingh/nord.nvim'
-  -- TREESITTER
-  use {
+  #### -- THEMES
+  2. use {'dracula/vim', as = 'dracula'}
+  3. use 'Mofiqul/vscode.nvim'
+  4. use 'shaunsingh/solarized.nvim'
+  5. use 'shaunsingh/moonlight.nvim'
+  6. use 'shaunsingh/nord.nvim'
+  #### -- TREESITTER
+  7. use {
     'nvim-treesitter/nvim-treesitter',
     run = ':TSUpdate'
   }
-  -- TREE 
-  use {
+  #### -- TREE 
+  8. use {
     'kyazdani42/nvim-tree.lua',
     requires = {
       'kyazdani42/nvim-web-devicons', -- optional, for file icon
     },
   }
-  -- autotag
-  use {'windwp/nvim-ts-autotag'}
+  #### -- autotag
+  9. use {'windwp/nvim-ts-autotag'}
   -- AUTO PAIRS
-  use 'windwp/nvim-autopairs'
+  10. use 'windwp/nvim-autopairs'
   -- RAIMBOW
-  use {'p00f/nvim-ts-rainbow'}
+  11. use {'p00f/nvim-ts-rainbow'}
   -- LUALINE
-  use 'nvim-lualine/lualine.nvim'
+  12. use 'nvim-lualine/lualine.nvim'
   -- BUFFERLINE
-  use 'akinsho/bufferline.nvim'
+  13. use 'akinsho/bufferline.nvim'
   -- WHICHKEY
-  use 'folke/which-key.nvim'
+  14. use 'folke/which-key.nvim'
   -- TELESCOPE
-  use 'nvim-telescope/telescope.nvim'
-  use 'nvim-lua/plenary.nvim'
-  -- CMP 
-  use 'neovim/nvim-lspconfig'
-  use 'hrsh7th/cmp-nvim-lsp'
-  use 'hrsh7th/cmp-buffer'
-  use 'hrsh7th/cmp-path'
-  use 'hrsh7th/cmp-cmdline'
-  use 'hrsh7th/nvim-cmp'
-  use 'hrsh7th/cmp-vsnip'
-  use 'hrsh7th/vim-vsnip'
-  -- LSPKIN
-  use 'onsails/lspkind.nvim'
-
+  15. use 'nvim-telescope/telescope.nvim'
+  16. use 'nvim-lua/plenary.nvim'
+  #### -- CMP 
+  17. use 'neovim/nvim-lspconfig'
+  18. use 'hrsh7th/cmp-nvim-lsp'
+  19. use 'hrsh7th/cmp-buffer'
+  20. use 'hrsh7th/cmp-path'
+  21. use 'hrsh7th/cmp-cmdline'
+  22. use 'hrsh7th/nvim-cmp'
+  23. use 'hrsh7th/cmp-vsnip'
+  24. use 'hrsh7th/vim-vsnip'
+  #### -- LSPKIN
+  25. use 'onsails/lspkind.nvim'

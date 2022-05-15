@@ -1,5 +1,9 @@
 # LINUX-WM
 
+### Current Twm: BSPWM -> desktop:
+![image](https://user-images.githubusercontent.com/100967935/168469678-dcb96476-8012-4cc9-b7c2-a0008be70aae.png)
+
+
 Apps and packages that I have installed on my system: 
 
 - Polybar -> status bar

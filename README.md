@@ -16,6 +16,8 @@ Apps and packages that I have installed on my system:
 - vlc -> video player
 - xarchiver -> file umpressor
 - thunar -> file manager
+- ArandR -> Monitor screen size manager
+- font-manager
 
 ## fonts
 https://github.com/epk/SF-Mono-Nerd-Font

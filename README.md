@@ -37,3 +37,55 @@ https://github.com/epk/SF-Mono-Nerd-Font
 5. C/C++ = https://github.com/one-harsh/vscode-cpp-snippets
 6. LUA = https://github.com/niszet/pandoc-lua-snippet/blob/master/snippets/snippets.json
 7. PYTHON = https://github.com/ylcnfrht/vscode-python-snippet-pack/blob/master/snippets/python_snippets.json
+
+# NVIM
+
+### Plugins using Packer as plugin manager
+  -- PACKER 
+  use 'wbthomason/packer.nvim'
+
+  -- THEMES
+  use {'dracula/vim', as = 'dracula'}
+  use 'Mofiqul/vscode.nvim'
+  use 'shaunsingh/solarized.nvim'
+  use 'shaunsingh/moonlight.nvim'
+  use 'shaunsingh/nord.nvim'
+  -- TREESITTER
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate'
+  }
+  -- TREE 
+  use {
+    'kyazdani42/nvim-tree.lua',
+    requires = {
+      'kyazdani42/nvim-web-devicons', -- optional, for file icon
+    },
+  }
+  -- autotag
+  use {'windwp/nvim-ts-autotag'}
+  -- AUTO PAIRS
+  use 'windwp/nvim-autopairs'
+  -- RAIMBOW
+  use {'p00f/nvim-ts-rainbow'}
+  -- LUALINE
+  use 'nvim-lualine/lualine.nvim'
+  -- BUFFERLINE
+  use 'akinsho/bufferline.nvim'
+  -- WHICHKEY
+  use 'folke/which-key.nvim'
+  -- TELESCOPE
+  use 'nvim-telescope/telescope.nvim'
+  use 'nvim-lua/plenary.nvim'
+  -- CMP 
+  use 'neovim/nvim-lspconfig'
+  use 'hrsh7th/cmp-nvim-lsp'
+  use 'hrsh7th/cmp-buffer'
+  use 'hrsh7th/cmp-path'
+  use 'hrsh7th/cmp-cmdline'
+  use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-vsnip'
+  use 'hrsh7th/vim-vsnip'
+  -- LSPKIN
+  use 'onsails/lspkind.nvim'
+
